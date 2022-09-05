@@ -1,0 +1,15 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import './App.css'
+
+const App = () => {
+  return (
+    <div className="wrap">
+      <Navbar />
+      <Home/>
+    </div>
+  );
+};
+
+export default App;
