@@ -9,7 +9,7 @@ const Home = () => {
         <h1>Heroes List</h1>
         <p>Filter heroes based on these attributes</p>
       </div>
-      <div className="sidebar-content">
+      <div className="container">
         <Sidebar />
         <HerosList />
       </div>
